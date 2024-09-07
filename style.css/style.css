@@ -1,0 +1,68 @@
+.section, h1{
+    color:rgba(13, 77, 51, 0.795);
+    font-size: 120px;
+    font-weight: bold;
+    position: absolute;
+    z-index: 100;
+    left: 70px;
+    top: 170px;
+    
+}
+
+/* .image-size{
+    height: 50%;
+    width: 50%;   
+} */
+
+.parent {
+  position: relative;
+  top: 550px;
+  left: 0;
+}
+.image1 {
+  position: relative;
+  top: 500px;
+  right: 150px;
+  border: 3px rgb(14, 13, 13) solid;
+  height: 500px;
+  width: 500px;
+}
+.image2 {
+  position: absolute;
+  top: 30px;
+  right: 330px;
+  border: 3px rgb(239, 239, 237) solid;
+  height: 500px;
+  width: 500px;
+}
+.image3 {
+  position: absolute;
+  top: 450px;
+  right: 600px;
+  border: 3px rgb(213, 226, 213) solid;
+  height: 500px;
+  width:370px;
+}
+
+
+h2{
+ color: rgb(20, 19, 19);
+ width: 63%;
+ margin-top: 400px;
+ margin-bottom: 840px;
+ font-weight: 300;
+ font-size: 25px;
+ line-height:30px;
+ letter-spacing: .5px;
+ font-family: sans-serif;
+ margin-left: 150px;
+
+}
+
+/* .footer_photo{
+    width: 50%;
+    height: 1000px;
+    bottom: 1%;
+    position : absolute;
+   
+} */
