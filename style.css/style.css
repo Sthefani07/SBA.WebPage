@@ -9,6 +9,13 @@
     
 }
 
+/* Nav bar */
+.navbar {
+    width: 100%;
+    background-color: transparent;
+    position: fixed;
+}
+
 /* .image-size{
     height: 50%;
     width: 50%;   
