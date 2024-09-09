@@ -201,14 +201,45 @@ h3 {
   margin-left: 80px;
 }
 
-
-table{
+table {
   margin-left: 150px;
   font-size: 18px;
-
+}
+/* Languages and CSS animations */
+#language {
+  margin-top: 20px;
 }
 
-#language{
-  margin-top: 20px;
+@keyframes fadeIn {
+  from {
+    opacity: 0;
   }
+  to {
+    opacity: 1;
+  }
+}
 
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+#language,
+h3,
+p,
+table,
+h6,
+h2 {
+  animation: fadeIn 1.5s ease-out, slideIn 1.5s ease-out;
+}
