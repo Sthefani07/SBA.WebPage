@@ -98,7 +98,7 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #559a62;
 }
 */
 
@@ -195,8 +195,20 @@ p {
 
 h3 {
   font-weight: 700;
-  font-size: 70px;
+  font-size: 75px;
 
   margin-top: 150px;
   margin-left: 80px;
 }
+
+
+table{
+  margin-left: 150px;
+  font-size: 18px;
+
+}
+
+#language{
+  margin-top: 20px;
+  }
+
